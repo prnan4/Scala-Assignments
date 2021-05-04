@@ -1,0 +1,19 @@
+# Assignment 4 questions
+
+
+1. Let's construct a bouquet of functions that would test the following conditions on a given number 'n'.  A) check prime B) check if square C) check irrational D) check if n is a Fibonacci E) check if log*(n) > 3 F) check if n! is < 2^20  G) check if n is perfect.  Construct the bouquet as a Map[Char, Int=>Boolean].  Now accept the integer and the code in {A,B,C,...,G} from the command line to call the appropriate function and print the result.
+
+
+
+2. Let's construct a complex number using the tuple notation in Scala as x = (real, imag).  Now, create functions that would compute A) sub(x,y) B) add(x, y) C) mult(x,y)  D) div(x,y) as nested functions inside another function createFunction(t:Char): ((Int,Int), (Int,Int)) => (Int,Int) that would return the necessary method based on the input in {+,-,*,/}.  If X, Y are complex numbers, then you will execute createFunction('*')(X,Y) to get the product X*Y.
+
+
+
+3. Consider 5 different functions that accept an Int as input and returns an Int as output.  I want to stitch the bodies of the function into one long function that accepts an Int as input and returns an Int as output.  How would you go about solving this problem?
+
+
+
+4. Parameterized constructors in the OO paradigm are similar to Currying in the Functional paradigm.  Give an example to compare the approaches side-by-side.
+
+
+5. Identify a couple of example use cases, that cannot be solved without using variables and impure functions.

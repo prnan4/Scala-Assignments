@@ -1,0 +1,15 @@
+Assignment #3
+
+1. Create a class-hierarchy representing the Animal Kingdom with relevant properties.  You don't have to think about functionality for this exercise.
+
+
+2. We know that abstract classes don't allow instantiation.  How can we create an abstract class (in principle) without using the keyword "abstract"? Write a piece of code to demonstrate your technique.
+
+
+3. We saw some examples where normal classes extend from case-classes and vice-versa.  Give an example scenario where you can derive a case-class from normal class and another example scenario where you can derive a concrete class from case-class.  By scenario, I mean real-life example.
+
+
+4. We learned a nice setter construct in Scala using "_=" method suffix, where Scala understands the "_"as space.  How does Scala recognize "_" as space in the setter construct, while "_" is allowed being the part of a function/property name?
+
+
+5. We learned about case-classes and objects with their applications.  Combining both gives us case-objects.  Give some applications of case-objects in real-life scenarios.

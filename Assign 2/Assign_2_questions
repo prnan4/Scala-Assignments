@@ -1,0 +1,16 @@
+Assignment #2
+
+
+1. We know that the "for" loop iterates over the elements of a container and "yield" can help to return the results of an expression.  For example, given a container "cont", the statement "for (i <- cont) yield fn(2)" is equivalent to "cont.map(fn)".  When should one use the "for-yield" construct as opposed to the "map" operator? Give a sample code which can run only in for-yield construct and not in "map".  Also, figure out another example that can work in a "map" construct but never in "for-yield".
+
+
+2. Consider the following snippets: A) "var x=0; do { println(x); x+=1; } while (x<10)" and B) "var x=0; while(x<10) { println(x); x+=1; }".  Are these identical?  When should one prefer "do-while" as opposed to the "while" construct?  Give a example code, which can only be done efficiently using "do-while" and not "while".  Likewise, give an example that can only be done efficiently using "while" and not "do-while".  Efficiency is the measure of "number-of-steps" involved in a code, typically the time-complexity estimate.
+
+
+3. We know that "break" and "continue" keywords are not there in the Scala language.  How would you imitate the behavior of "break" and "continue" in a for-loop and while-loop?  Give sample codes for each loop structure to demonstrate your idea.
+
+
+4. We saw examples of matching a string, number, number-ranges using the match-case construct as an independent example.  Implement a function that matches mixed data types.  The use cases should match a) exact number b) numeric range c) exact string d) class type e) strings of length>5 f) string contains "hello" g) prime number h) palindrome string.  Hint: Explore the "if" construct in "case".
+
+
+5. Write a code to extract words from a long text string using the """---"""" construct and sort the words in their lengths in descending order.
